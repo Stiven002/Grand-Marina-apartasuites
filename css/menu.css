@@ -31,9 +31,9 @@ body{
 }
 
 .a{
-    width: 60%;
+    width: 90%;
     display: flex;
-    justify-content: right;
+    justify-content: center;
     align-items: center;
 }
 
@@ -44,9 +44,8 @@ body{
 }
 
 .b{
-    width: 40%;
     display: flex;
-    justify-content: right;
+    justify-content: flex-end;
     align-items: center;
 }
 
