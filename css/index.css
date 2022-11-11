@@ -359,6 +359,12 @@
 }
 
 /* mediaqueries */
+@media screen and (max-width: 330px) {
+    .card__button{
+        font-size: 13px;
+    }
+}
+
 @media screen and (min-width: 770px) {
     .header__img--small{
         display: none;
