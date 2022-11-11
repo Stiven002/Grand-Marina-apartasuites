@@ -89,7 +89,7 @@ body{
 }
 
 .menu-active{
-    height: 45vh;
+    height: 300px;
 }
 
 @media screen and (min-width: 770px) {
@@ -140,17 +140,5 @@ body{
         color: #008C92;
         font-size: 15px;
         font-weight: 500;
-    }
-}
-
-@media screen and (min-height: 750px) {
-    .menu-active{
-        height: 35vh;
-    }
-}
-
-@media screen and (min-height: 1000px) {
-    .menu-active{
-        height: 30vh;
     }
 }
