@@ -1,0 +1,148 @@
+.footer__container{
+    margin-top: 5rem;
+}
+
+
+.footer__img{
+    width: 220px;
+    height: 140px;
+}
+
+.footer__title{
+    color: #008C92;
+}
+
+.footer__icon{
+    color: #008C92;
+    font-size: 25px;
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+.footer__menu{
+    display: flex;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+
+.menu__part{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 50%;
+}
+
+.part__item{
+    color: #008C92;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.footer__subcription{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.subcription__input{
+    border:  1px solid #008C92;
+    padding: 5px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+
+.input{
+    padding: 15px 20px;
+    border: none;
+    background-color: #E5E4E4;
+    width: 50%;
+    outline: none;
+}
+
+.input::placeholder{
+    color: #008C92;
+    font-size: 20px;
+}
+
+.button{
+    padding: 18px 20px;
+    background-color: #008C92;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 50%;
+    font-weight: 500;
+}
+
+.input__img{
+    width: 30px;
+    height: 20px;
+}
+
+.footer__paragraph{
+    color: #008C92;
+    line-height: 25px;
+}
+
+.footer__brand{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer__brand p{
+    color: #008C92;
+    font-weight: 500;
+}
+
+.brand__img{
+    width: 30px;
+    height: 20px;
+}
+
+@media screen and (min-width: 770px) {
+
+    .footer__container{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .footer__logos{
+        width: 20%;
+    }
+
+    .footer__menu{
+        width: 30%;
+    }
+
+    .footer__subcription{
+        width: 40%;
+    }
+
+    .footer__img{
+        width: 150px;
+        height: 100px;
+    }
+
+    .sub{
+        text-align: center;
+    }
+
+    .input__img{
+        width: 40px;
+        height: 30px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .container{
+        margin: auto;
+        max-width: 1200px;
+    }
+    
+}

@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;600&display=swap');
+
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background-color: #E5E4E4;
+}
+
+.container{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.menu{
+    background-color: #fff;
+    height: 100px;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    top: 0;
+}
+
+.menu__logos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.a{
+    width: 60%;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.logos__img{
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+}
+
+.b{
+    width: 40%;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.logos__icon{
+    color: #008C92;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1020px) {
+    .menu__items{
+        background-color: #fff;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 0px;
+        overflow: hidden;
+        transition: all .3s ease;
+    }
+    
+    .item{
+        width: 100%;
+        padding: 15px 0px;
+        color: #008C92;
+        text-align: center;
+        font-weight: 500;
+    }
+    
+    .item:hover{
+        background-color: #008C92;
+        color: #fff;
+        transition: .3s;
+    }
+
+    .menu__active{
+        background-color: #008C92;
+        color: #fff;
+    }
+}
+
+.menu-active{
+    height: 45vh;
+}
+
+@media screen and (min-width: 770px) {
+    .menu{
+        height: 80px;
+    }
+
+    .menu__logos{
+        height: 80px;
+    }
+
+    .logos__img{
+        height: 100%;
+    }
+
+    .a{
+        justify-content: left;
+    }
+}
+
+@media screen and (min-width: 1021px){
+    .b{
+        display: none;
+    }
+
+    .menu__container{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: auto;
+        max-width: 1200px;
+    }
+
+    .menu__logos{
+        margin-left: 0rem;
+        margin-right: 0rem;
+    }
+
+    .menu__items{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+        margin-right: 1rem;
+    }
+
+    .item{
+        color: #008C92;
+        font-size: 15px;
+        font-weight: 500;
+    }
+}
+
+@media screen and (min-height: 750px) {
+    .menu-active{
+        height: 35vh;
+    }
+}
+
+@media screen and (min-height: 1000px) {
+    .menu-active{
+        height: 30vh;
+    }
+}

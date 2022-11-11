@@ -1,0 +1,618 @@
+/* header */
+
+.header{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header__img--small{
+    width: 100%;
+}
+
+.header__img--big{
+    display: none;
+    width: 100%;
+}
+
+.header__reserv{
+    position: absolute;
+    bottom: 15%;
+}
+
+.reserv__full{
+    display: none;
+}
+
+.reserv__btn{
+    color: #fff;
+    background-color: #1f493ad8;
+    padding: 15px 20px;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+
+.reserv__btn a{
+    color: #fff;
+}
+
+.reserv__btn i{
+    font-size: 25px;
+    text-align: center;
+}
+
+/* slider */
+
+.about{
+    margin-top: 4rem;
+}
+
+
+.about__title{
+    color: #008C92;
+    font-weight: 400;
+    text-align: center;
+}
+
+.about__title span{
+    font-weight: 600;
+}
+
+.about__reservas{
+    display: none;
+}
+
+.slider__container{
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+    border-radius: 150px;
+}
+
+
+
+.miSlider img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.about__context{
+    margin-top: 3rem;
+}
+
+.context__title{
+    color: #008C92;
+    font-size: 30px;
+    text-align: center;
+}
+
+.context__paragraph{
+    text-align: center;
+    font-size: 18px;
+    color: #807f7f;
+    font-weight: 500;
+    line-height: 35px;
+}
+
+.context__imgs{
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.context__imgs img{
+    width: 80px;
+    height: 80px;
+}
+
+.context__button{
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+}
+
+.button__link{
+    background-color: #008C92;
+    color: #fff;
+    padding: 15px 30px;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 5px;
+}
+
+/* cards */
+.cards{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 4rem;
+    gap: 3rem;
+}
+
+.card{
+    background-color: #008C92;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    border-radius: 10px;
+    padding: 0px 50px;
+    width: 100%;
+    margin-top: 25%;
+}
+
+.card__img{
+    width: 300px;
+    height: 300px;
+    margin-top: -150px;
+}
+
+.img__two{
+    max-width: 225px;
+    max-height: 225px;
+    margin-top: -112px;
+}
+
+.card__title{
+    color: #fff;
+}
+
+.title__card--1{
+    margin-top: -20px;
+}
+
+.card__paragraph{
+    text-align: center;
+    color: #fff;
+    line-height: 25px;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.para__card--1{
+    margin-top: -10px;
+}
+
+.card__button{
+    padding: 17px 13px;
+    background-color: #fff;
+    border-radius: 5px;
+    color: #008C92;
+    font-weight: 600;
+    margin-bottom: 2rem;
+    font-size: 18px;
+}
+
+/* comentarios */
+.testimonio__container{
+    margin-top: 6rem;
+}
+
+.testimonio__title{
+    text-align: center;
+    color: #008C92;
+    margin-bottom: 2rem;
+}
+
+.testimonio__paragraph{
+    text-align: center;
+    color: #807f7f;
+    font-weight: 500;
+    margin-bottom: 4rem;
+}
+
+.swiper-hero {
+    width: 100%;
+    height: 400px;
+}
+
+.swiper-hero .swiper-button-prev,
+.swiper-hero .swiper-button-next{
+    --swiper-navigation-size: 20px;
+    color: #dfdedea6;
+}
+
+.swiper-pagination{
+    --swiper-theme-color: #008C92;
+}
+
+
+.slide__item{
+    background-color: #fff;
+    padding: 40px 20px 0px 20px;
+    height: 100%;
+    max-height: 250px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    cursor: grab;
+}
+
+.slide__quote{
+    position: absolute;
+    top: 0;
+    margin-top: 20px;
+    z-index: 0;
+    opacity: .4;
+}
+
+
+.slide__paragraph{
+    font-size: 16px;
+    font-weight: 500;
+    color: #807f7f;
+    text-align: center;
+    z-index: 1;
+}
+
+.slide__title{
+    color: #008C92;
+    text-align: center;
+}
+
+.slide__profile{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 10px solid #fff;
+    margin-bottom: -40px;
+}
+
+
+/* formulario */
+
+.formulario__small{
+    width: 100%;
+}
+
+.formulario__big{
+    display: none;
+}
+
+.formulario__container{
+    background-color: #008D93;
+    margin-top: -5px;
+    padding: 60px 0px;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+}
+
+.form__input{
+    background-color: transparent;
+    padding: 15px 10px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    width: 85%;
+    outline: none;
+    color: #fff;
+    font-weight: 500;
+}
+
+.form__input::placeholder{
+    color: #e7e7e7b9;
+    font-weight: 500;
+}
+
+.from__text{
+    background-color: transparent;
+    min-width: 85%;
+    max-width: 85%;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    padding: 10px 10px;
+    outline: none;
+    color: #fff;
+    font-weight: 500;
+}
+
+.from__text::placeholder{
+    color: #e7e7e7b9;
+    font-weight: 500;
+}
+
+.form__politica{
+    display: flex;
+    gap: .50rem;
+    justify-content: start;
+    width: 85%;
+    margin: 20px 0px;
+    align-items: center;
+}
+
+.politica__label{
+    color: #fff;
+    font-weight: 500;
+    font-size: 13px;
+}
+
+.button__container{
+    width: 85%;
+}
+
+.form__button{
+    padding: 15px 70px;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    color: #008C92;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: 500;
+    background-color: #fff;
+}
+
+/* mediaqueries */
+@media screen and (min-width: 770px) {
+    .header__img--small{
+        display: none;
+    }
+
+    .header__img--big{
+        display: block;
+    }
+
+    .wave{
+        position: absolute;
+        bottom: 0;
+        height: 50px;
+    }
+
+    .option{
+        color: black;
+    }
+
+    .about__slider{
+        display: flex;
+        margin-top: 10%;
+        align-items: flex-start;
+        justify-content: center;
+        gap: 1rem;
+    }
+
+    .slider__container{
+        width: 40%;
+        height: 100%;
+    }
+
+    .fade{
+        object-fit: contain;
+    }
+
+    .about__context{
+        width: 50%;
+    }
+
+    .context__paragraph{
+        text-align: justify;
+    }
+
+    .context__imgs{
+        justify-content: flex-start;
+    }
+    
+    .context__button{
+        justify-content: flex-start;
+    }
+
+    .cards{
+        flex-direction: row;
+    }
+
+    .card{
+        width: 45%;
+        height: 450px;
+    }
+
+    .formulario{
+        display: flex;
+        flex-direction: row-reverse;
+        background-image: url(../img/Image-5.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: right;
+        overflow: hidden;
+    }
+
+
+    .formulario__imgs--cont{
+        width: 50%;
+        height: 100%;
+    }
+
+    .formulario__container{
+        width: 50%;
+        position: relative;
+    }
+
+    .form__wave{
+        transform: rotate(90deg);
+        position: absolute;
+        top: 50%;
+        right: -110%;
+    }
+
+    .formulario__small{
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1021px){
+    .container{
+        max-width: 1200px;
+        margin: auto;
+    }
+
+    .header__reserv{
+        width: 90%;
+    }
+    
+    .reserv__btn{
+        display: none;
+    }
+
+    .reserv__full{
+        display: flex;
+        background-color: #1f493ad8;
+        align-items: center;
+        justify-content: center;
+        padding: 40px 20px;
+        border-radius: 5px;
+        gap: 3rem;
+        width: 100%;
+    }
+
+    .about__reservas{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 4rem;
+        margin-top: 6rem;
+    }
+
+    .reserva__card{
+        width: 330px;
+        height: 500px;
+        background-color: #fff;
+        border-radius: 10px;
+        padding: 20px 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        -webkit-box-shadow: 1px 1px 18px -8px rgba(0,0,0,0.75);
+        -moz-box-shadow: 1px 1px 18px -8px rgba(0,0,0,0.75);
+        box-shadow: 1px 1px 18px -8px rgba(0,0,0,0.75);
+    }
+
+    .reserva__img{
+        width: 100%;
+        height: 200px;
+        border-radius: 10px;
+    }
+
+    .reserva__title-content{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        width: 100%;
+    }
+
+    .content__title{
+        background-color: #F6F7F6;
+        padding: 15px 10px;
+        border-radius: 5px;
+        color: #008D93;
+        font-weight: 500;
+    }
+
+    .content__span{
+        color: #807f7f;
+        font-weight: 500;
+    }
+
+    .reserva__paragraph{
+        color: #807f7f;
+        font-weight: 500;
+        padding: 0px 5px;
+    }
+
+    .reserva__button{
+        background-color: #008D93;
+        width: 90%;
+        padding: 15px 0px;
+        border-radius: 5px;
+        color: #fff;
+        font-weight: 500;
+        font-size: 20px;
+        text-align: center;
+        margin-top: 1rem;
+    }
+
+    .check-in{
+        display: flex;
+        flex-direction: column;
+        width: 15%;
+    }
+
+    .check-label{
+        color: #fff;
+        margin-bottom: 5px;
+    }
+
+    .check-input{
+        background-color: transparent;
+        color: #fff;
+        padding: 10px 20px;
+        border-color: #fff;
+        border-radius: 5px;
+        outline: #45dba7d8;
+        width: 100%;
+    }
+
+    .input-btn{
+        background-color: #fff;
+        color: #018D92;
+        padding: 15px 25px;
+        font-weight: 500;
+        font-size: 20px;
+        border-radius: 5px;
+    }
+
+    .input-btn:hover{
+        color: #fff;
+        background-color: #018D92;
+        transition: .3s;
+    }
+
+    .about__title{
+        font-size: 50px;
+        text-align: center;
+    }
+
+    .testimonio__container{
+        margin-top: 100px;
+    }
+
+    .formulario__imgs--cont{
+        width: 60%;
+        height: 100%;
+    }
+
+    .formulario__container{
+        width: 40%;
+        position: relative;
+    }
+
+    .form__input{
+        width: 70%;
+    }
+
+    .from__text{
+        max-width: 70%;
+        min-width: 70%;
+    }
+
+    .form__politica{
+        width: 70%;
+    }
+
+    .button__container{
+        width: 70%;
+    }
+}

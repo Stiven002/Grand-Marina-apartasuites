@@ -1,0 +1,37 @@
+.gallery__titles{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 12rem;
+}
+
+.gallery__title{
+    color: #008C92;
+    font-size: 50px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.gallery__img-title{
+    margin-top: -30px;
+}
+
+.gallery__container{
+    margin-top: 6rem;
+}
+
+.gallery{
+    columns: 5 320px;
+}
+
+.gallery__img{
+    max-width: 100%;
+    border-radius: 25px;
+    margin-bottom: .50em;
+}
+
+.gallery__img:hover{
+    opacity: .5;
+    transition: .3s;
+}

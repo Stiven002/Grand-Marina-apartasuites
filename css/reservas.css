@@ -1,0 +1,188 @@
+.header{
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.header__img-small{
+    width: 100%;
+}
+
+.header__img-big{
+    display: none;
+}
+
+.header__wave{
+    display: none;
+}
+
+.reserv__btn{
+    color: #fff;
+    background-color: #1f493ad8;
+    padding: 15px 20px;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    position: absolute;
+    bottom: 15%;
+}
+
+
+.reserv__btn a{
+    color: #fff;
+}
+
+.reserv__btn i{
+    font-size: 25px;
+    text-align: center;
+}
+
+.reservas{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+}
+
+.reservas__title{
+    color: #008C92;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.reservas__img{
+    margin-top: -20px;
+}
+
+.reserv__full{
+    display: none;
+}
+
+/* gallery */
+.reserv__gallery{
+    margin-top: 10%;
+}
+
+.gallery{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.gallery__link{
+    height: 120px;
+    max-width: 31%;
+}
+
+.gallery__img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.gallery__img:hover{
+    opacity: .5;
+    transition: .3s;
+}
+
+@media screen and (min-width: 770px){
+    .header__img-small{
+        display: none;
+    }
+
+    .header__img-big{
+        display: block;
+        width: 100%;
+    }
+
+    .header__wave{
+        display: block;
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+    }
+
+    .reserv__btn{
+        margin-bottom: 20px;
+    }
+
+    .gallery__link{
+        height: 140px;
+        max-width: 25%;
+    }
+}
+
+@media screen and (min-width: 1021px){
+    .reserv__btn{
+        display: none;
+    }
+
+    
+    .reserv__full{
+        display: flex;
+        background-color: #008C92;
+        align-items: center;
+        justify-content: center;
+        padding: 40px 20px;
+        border-radius: 5px;
+        gap: 3rem;
+        width: 100%;
+        margin-top: 2rem;
+    }
+
+    .check-in{
+        display: flex;
+        flex-direction: column;
+        width: 15%;
+    }
+
+    .check-label{
+        color: #fff;
+        margin-bottom: 5px;
+    }
+
+    .check-input{
+        background-color: transparent;
+        color: #fff;
+        padding: 10px 20px;
+        border-color: #fff;
+        border-radius: 5px;
+        outline: #45dba7d8;
+        width: 100%;
+    }
+
+    .input-btn{
+        background-color: #fff;
+        color: #018D92;
+        padding: 15px 25px;
+        font-weight: 500;
+        font-size: 20px;
+        border-radius: 5px;
+    }
+
+    .input-btn:hover{
+        color: #fff;
+        background-color: #018D92;
+        transition: .3s;
+    }
+
+    .option{
+        color: #000;
+    }
+}
+
+@media screen and (min-width: 1200px){
+    .gallery__link{
+        height: 290px;
+        max-width: 30%;
+    }
+}

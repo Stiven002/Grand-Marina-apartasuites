@@ -1,0 +1,372 @@
+/* header */
+.header{
+    position: relative;
+}
+
+.header__img-small{
+    width: 100%;
+}
+
+.header__img-big{
+    display: none;
+}
+
+.header__wave{
+    display: none;
+}
+
+/* alojamiento */
+.alojamiento{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.alojamiento__title{
+    color: #008C92;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.alojamiento__img{
+    margin-top: -20px;
+    margin-bottom: 2rem;
+}
+
+.alojamiento__ocean{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-self: center;
+    gap: 2rem;
+}
+
+.ocean__item{
+    color: #008C92;
+    padding: 15px 30px;
+    background-color: #F8F9F9;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.ocean__item:hover{
+    background-color: #008C92;
+    color: #F8F9F9;
+    transition: .4s;
+}
+
+.ocean__container{
+    width: 100%;
+    display: flex;
+    gap: 8rem;
+    align-items: center;
+}
+
+/* swiper */
+.mySwiper2{
+    margin-top: 4rem;
+    height: 450px;
+    margin-bottom: 1rem;
+}
+
+
+.swiper-slide img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    cursor: grab;
+}
+
+.swipere{
+    width: 100%;
+    height: 166px;
+}
+
+.swiper__img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+.mySwiper .swiper-slide {
+    opacity: 0.4;
+}
+
+.mySwiper .swiper-slide-thumb-active {
+    opacity: 1;
+}
+
+.swiper-button-next,
+.swiper-button-prev{
+    --swiper-navigation-size: 15px;
+    font-weight: 600;
+    color: #f0f0f0;
+}
+
+/* description of suite */
+.ocean__titles{
+    display: flex;
+    flex-direction: column;
+}
+
+.ocean__title{
+    font-size: 35px;
+}
+
+.ocean__title-span{
+    font-size: 15px;
+    color: #1A3F93;
+    font-weight: 500;
+}
+
+.ocean__paragraph{
+    font-weight: 500;
+}
+
+.ocean__review{
+    display: flex;
+    align-items: center;
+}
+
+.review__icon{
+    font-size: 20px;
+    color: #01DBDE;
+}
+
+.review__paragraph{
+    font-size: 13px;
+    color: #1A3F93;
+}
+
+.hr{
+    background-color: #807f7f;
+    opacity: .5;
+    border: none;
+    height: 1px;
+}
+
+.description{
+    display: flex;
+    flex-direction: column;
+}
+
+.desciption__title{
+    color: #1A3F93;
+    font-weight: 500;
+}
+
+.desciption__paragraph{
+    color: #807f7f;
+}
+
+.list__item-icon{
+    color: #008C92;
+    font-size: 20px;
+    margin-right: 5px;
+}
+
+.list__item{
+    color: #807f7f;
+    font-size: 14px;
+}
+
+.services__title{
+    color: #1A3F93;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.desciption__img--container{
+    display: flex;
+    gap: 2rem;
+}
+
+.description__img{
+    width: 64px;
+    height: 64px;
+}
+
+.description__button{
+    margin-top: 12%;
+}
+
+.button__link-reser{
+    background-color: #008C92;
+    padding: 15px 30px;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+/* comentarios */
+.comentario{
+    margin-top: 10%;
+}
+
+.comentario__title{
+    color: #008C92;
+    font-weight: 400;
+}
+
+.comentario__paragraph{
+    color: #807f7f;
+}
+
+.comentario__text--container{
+    display: flex;
+    flex-direction: column;
+}
+
+.comentario__text{
+    background-color: transparent;
+    min-width: 100%;
+    max-width: 100%;
+    border: 1px solid #008C92;
+    outline: none;
+}
+
+.comentario__form{
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.form{
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.form__input{
+    background-color: transparent;
+    padding: 10px 20px;
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid #008C92;
+    outline: none;
+}
+
+.comentario__plub{
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.plub__label{
+    color: #807f7f;
+    font-size: 12px;
+}
+
+.plub__button{
+    padding: 15px;
+    color: #fff;
+    background-color: #008C92;
+    border-radius: 5px;
+    font-size: 19px;
+    font-weight: 500;
+}
+
+@media screen and (max-width: 400px) {
+    .swipere{
+        height: 100px;
+    }
+
+    .ocean__container{
+        gap: 2rem;
+    }
+}
+
+@media screen and (min-width: 770px){
+    .header__img-small{
+        display: none;
+    }
+    
+    .header__img-big{
+        display: block;
+        width: 100%;
+    }
+    
+    .header__wave{
+        display: block;
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+    }
+
+    .alojamiento__ocean{
+        flex-direction: row;
+    }
+
+    .ocean__container{
+        gap: 2rem;
+    }
+
+    .apartament__gallery{
+        display: flex;
+        gap: 2rem;
+    }
+
+    .gallery{
+        width: 50%;
+    }
+
+
+    .ocean__suite{
+        width: 45%;
+    }
+
+    .swipere{
+        height: 86px;
+    }
+
+    .ocean__titles{
+        margin-top: 2rem;
+    }
+
+    .description__list{
+        display: flex;
+        gap: 2rem;
+    }
+
+    .comentario__form{
+        flex-wrap: wrap;
+    }
+    
+    .form{
+        width: 100%;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .form__input{
+        width: 30%;
+    }
+
+    .plub__label{
+        font-size: 15px;
+    }
+    
+    .plub__container{
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 1021px){
+    .alojamiento__title{
+        font-size: 50px;
+    }
+
+    .alojamiento__ocean{
+        justify-content: center;
+    }
+
+    .item__firts{
+        width: 200px;
+    }
+}
